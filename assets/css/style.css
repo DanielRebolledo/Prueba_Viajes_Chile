@@ -1,4 +1,5 @@
-/* color: #17A3B8, #ffffff, #000000; */
+
+
 body{
     background-color: #000000;
     color: #ffffff;
@@ -46,10 +47,20 @@ footer ul{
     text-align: right;
 }
 
+.bg-white{
+    background-color: #ffffff;
+    color: #000000;
+}
 
 @media (max-width: 720px){
     .quienes_somos{
         display: none;
     }
-}
+     
+    footer, footer ul{
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+}   
 
