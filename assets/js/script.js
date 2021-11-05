@@ -1,4 +1,11 @@
  $(function (){
+
+//cambio de color en el header-- Funcionaaaa profee!!!!!
+  $(window).scroll(function(){
+
+    $('nav').toggleClass('bgcolor', $(this).scrollTop()>50)
+  })
+
    //Tooltip Bootstrap
   $('[data-toggle="tooltip"]').tooltip()
 
@@ -20,5 +27,5 @@
       });
     } // End 
   });
-
+  
 })
